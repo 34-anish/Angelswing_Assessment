@@ -1,2 +1,7 @@
 Datasets/
 yolo/
+*.pt
+runs_yolov8/
+segment/
+*.zip
+resized_drone_test_images/
