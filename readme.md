@@ -7,7 +7,7 @@ pool', 'tree', and 'yard'. Your objectives are as follows:
 
 >> Inside train\weights you can find the `best.pt` and `last.pt` which are useful for the API and the prediction
 - How to see the contents of YOLOv8?
->> Similar to YOLOv9 the contents can be found at [ZIP](./runs_yolov8.zip)
+>> Similar to YOLOv9 the contents can be found at [ZIP](./runs_yolov8.zip) *Check email for this*
 
 - Where is the solution to the written test?
 >> [File](Solution_1,2,3.pdf)
@@ -197,6 +197,10 @@ HOME = '/content/drive/MyDrive/yolov9c-seg'
 *Confusion Matrix*
 ![3bbd3dda4086f355da9cc4b28cc481c4.png](./_resources/3bbd3dda4086f355da9cc4b28cc481c4.png)
 ![faae84569e867bb3c248b3010d7082a5.png](./_resources/faae84569e867bb3c248b3010d7082a5.png)
+![alt text](BoxR_curve.png) ![alt text](BoxF1_curve.png) ![alt text](BoxP_curve.png) ![alt text](BoxPR_curve.png)
+- Recall-Confidence Score: 0.91
+- F1 Confidence score :0.52
+- PR Score 0.497
 The chart suggests that loss is decreasing on each epoch and due to time and resource constraints I was limited to 50 epochs but could have increased to 100-200 epochs. 
 -The confusion matrix shows that cars are shown to be quite mistaken as the background and the yard is greatly mistaken as the background by the model
 *In validation set,*
