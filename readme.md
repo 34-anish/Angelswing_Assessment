@@ -3,11 +3,9 @@
 pool', 'tree', and 'yard'. Your objectives are as follows:
 # FAQ
 - How to access the best.pt of YOLOv9?
->>  Unzip the [ZIP](./segment-20240710T143626Z-001.zip) which contains all the files from trained modules , predicted images from test,val and drone images
+>>  Unzip the [ZIP](https://drive.google.com/file/d/11Xznyeb-VAU7UkCJ4j9ZyDy0Qcat_mlp/view?usp=drive_link) which contains all the files from trained modules , predicted images from test,val and drone images
 
 >> Inside train\weights you can find the `best.pt` and `last.pt` which are useful for the API and the prediction
-- How to see the contents of YOLOv8?
->> Similar to YOLOv9 the contents can be found at [ZIP](./runs_yolov8.zip) *Check email for this*
 
 - Where is the solution to the written test?
 >> [File](Solution_1,2,3.pdf)
